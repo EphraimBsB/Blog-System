@@ -1,0 +1,25 @@
+{
+  "name": "blog-system",
+  "version": "1.0.0",
+  "description": "A rest API with Nodejs and Mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:migrate": "sequelize db:migrate",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ephraim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fastest-validator": "^1.10.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7"
+  }
+}
